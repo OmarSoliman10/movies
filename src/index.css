@@ -1,0 +1,39 @@
+:root{
+  --bg-main: #131722;
+  --light-main: #24BAEF;
+  --main-color: #FFF;
+  --border-color:#a8a8a83d;
+}
+
+body {
+  background-color: #131722 ;
+  color: var(--main-color) ;
+}
+input{
+  background-color: transparent !important;
+  color: #fff !important;
+
+}
+
+.brdr{
+  height: 1px;
+  background-color: var(--border-color);
+}
+
+.person-img{
+  height: 249px ;
+}
+a a:hover{
+  color: white;
+  text-decoration: none;
+}
+h2{
+  color: white  ;
+}
+a , span{
+  text-decoration: none;
+  cursor: pointer;
+}
+ui{
+  list-style: none !important;
+}
